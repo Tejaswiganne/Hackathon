@@ -1,0 +1,14 @@
+For comparison:
+
+suppose if input is (2+3)>5
+split the input 
+if input.contains(">") then split the input
+string tokens[]=input.split("//>") this returns an array
+tokens[0]= (2+3)
+tokens[1]= >
+tokens[2]= 5
+The above code evaluates LHS i.e; (2+3) 
+So compare tokens[0] with tokens[2]
+if both are equal then compare this = with tokens[1]
+If both the symbol matches then the result is true. Otherwise it is false.
+
